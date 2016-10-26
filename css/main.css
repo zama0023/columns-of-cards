@@ -1,9 +1,22 @@
 html {
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
-ul {
-  list-style-type: none;
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+div {
+  float: left;
 }
 
 a {

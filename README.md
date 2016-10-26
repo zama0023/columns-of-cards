@@ -20,7 +20,7 @@ deliverables: "1 HTML file, 1 CSS file, images"
 - *Typefaces:* `Open Sans`
 - *Text sizes:* `2rem`, `.875rem`
 - *Line height:* `1.5`
-- *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#aaa`, `#999`
+- *Colours:* `#f2f2f2` bg, `#333` hover, `#e2e2e2` 1 bg, `#ccc` 2 bg, `#aaa` 3 bg, `#999` 4 bg
 - *Paddings:* `1.5rem`, `.75rem`
 - *Margins:* `0`, `0 auto 1.5rem`, `0 0 1.5rem`
 - *Image width:* `100px`

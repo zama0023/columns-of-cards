@@ -7,8 +7,28 @@ html {
   box-sizing: inherit;
 }
 
-h2 {
+section {
+  background-color: #f2f2f2;
+}
+
+h1 {
   text-align: center;
+  font-size: 2rem;
+  margin: 1.7rem;
+
+}
+
+h2 {
+  font-size: .875rem;
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+
+h3 {
+  font-style: italic;
+  font-size: .875rem;
+  font-weight: normal;
+  margin: 0;
 }
 
 body {
@@ -16,10 +36,18 @@ body {
   margin: 0;
 }
 
+p {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
 div {
   float: left;
   display: inline-block;
   width: 25%;
+  height: 420px;
+  border-left: 1px solid #333;
 }
 
 a {
@@ -28,15 +56,19 @@ a {
 
 img {
   width: 100px;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .btn {
   display: inline-block;
   background-color: #333;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 8px;
   text-decoration: none;
+  margin-left: 1em;
+  padding: .5rem;
 }
 
 .btn:hover {
@@ -61,4 +93,5 @@ img {
 
 .four {
   background-color: #999;
+  border-right: 1px solid #333;
 }

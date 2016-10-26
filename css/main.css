@@ -7,16 +7,19 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h2 {
   text-align: center;
 }
 
 body {
   background-color: #f2f2f2;
+  margin: 0;
 }
 
 div {
   float: left;
+  display: inline-block;
+  width: 25%;
 }
 
 a {
@@ -25,6 +28,7 @@ a {
 
 img {
   width: 100px;
+  display: inline-block;
 }
 
 .btn {
@@ -37,4 +41,24 @@ img {
 
 .btn:hover {
   background-color: #000;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.one {
+  background-color: #e2e2e2;
+}
+
+.two {
+  background-color: #ccc;
+}
+
+.three {
+  background-color: #aaa;
+}
+
+.four {
+  background-color: #999;
 }
